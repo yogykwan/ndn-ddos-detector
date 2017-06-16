@@ -8,15 +8,15 @@ class Counter{
 
 public:
 
-    Counter(){};
+    Counter(){}
 
-    virtual ~Counter(){};
+    virtual ~Counter(){}
 
     virtual void addItem(std::string item){}
 
     virtual int count(){return -1;}
 
-    int* getSketch() {return 0;}
+    virtual int* getSketch() {return NULL;}
 
     virtual void flush(){}
 };

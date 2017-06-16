@@ -5,6 +5,7 @@
 #include <string>
 #include <algorithm>
 #include <cstring>
+#include <iostream>
 #include <cmath>
 
 class LFMSketchCounter: public Counter{

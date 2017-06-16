@@ -1,0 +1,8 @@
+#ifndef NDN_DDOS_DETECTOR_FACTORY_H
+#define NDN_DDOS_DETECTOR_FACTORY_H
+
+class NddFactory {
+
+};
+
+#endif //NDN_DDOS_DETECTOR_FACTORY_H
